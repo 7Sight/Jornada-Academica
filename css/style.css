@@ -1,6 +1,6 @@
 body{
 		font-family: 'Courier New', sans-serif;
-
+		text-align: justify;
 
 }
 
@@ -107,5 +107,13 @@ footer {
 	}
 	.sobre-p {
 		color: #153641;
-		padding: 0 2em
+		padding: 0 2em;
+		text-align: justify;
+	}
+	
+	h1, h4, spam, p{
+		text-align: center;
+	}
+	.foto{
+		position: center;
 	}
