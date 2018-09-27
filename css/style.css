@@ -117,3 +117,8 @@ footer {
 	.foto{
 		border-radius: 50%;
 	}
+	
+	.work{
+		background-color: #153641;
+		color: white;
+	}
