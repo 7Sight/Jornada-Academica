@@ -4,32 +4,30 @@
  
     <title>Informações</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/normalize.css">
+    
     <link rel="stylesheet" href="css/style.css" type="text/css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<script language=javascript type="text/javascript"></script>
+	
 </head>
  
 <body>
  
     <!-- Cabeçalho -->
     <header>
-        <div class="container">
-            
-        <img src="img/logo.png" alt="logo" class="logo">
-
-        <nav>
-        	<ul>
-				<li><a href="index.html"><b>SOBRE</b></a></li>
-				<li><a href="informacao.html"><b>INFORMAÇÕES</b></a></li>
-			 	<li><a href="inscricao.html"><b>INSCRIÇÕES</b></a></li>
-				<li><a href="duvida.html"><b>DÚVIDAS</b></a></li>
-			</ul>	
-        </nav>
+        <div class="container">            
+			<img src="img/logo.png" alt="logo" class="logo">
+			<nav>
+				<ul>
+					<li><a href="index.html"><b>SOBRE</b></a></li>
+					<li><a href="informacao.html"><b>INFORMAÇÕES</b></a></li>
+					<li><a href="inscricao.html"><b>INSCRIÇÕES</b></a></li>
+					<li><a href="duvida.html"><b>DÚVIDAS</b></a></li>
+				</ul>	
+			</nav>
 		</div>
     </header>
  
@@ -40,8 +38,8 @@
 		
 		</br></br>
 		
- 		<section class="grid-container">
-			<div class="row align-items-center">
+ 		<section>
+			<div class="row">
 				<div class="col">
 					<h4>Data</h4><p>17 e 18 de Outubro</p>
 				</div>
@@ -65,11 +63,35 @@
 		
 		</br></br>
 		
-    	<section class="grid-container">
-			<div class="row align-items-center">
+    	<section">
+			<div class="row justify-content-center">
 				<div class="col">
-					<h4>Python</h4><p>por Isabela Cristina</p>
+					<h4 data-toggle="modal" data-target="#python">Python</h4><p>por Isabela Cristina</p>
 				</div>
+				<!-- Modal -->
+				<div class="modal fade" id="python" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+					<div class="modal-dialog modal-dialog-centered" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="exampleModalCenterTitle">Phyton - Por Fabíola Malta</h5>
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+							<div class="modal-body">
+							<p>Workshop voltado para iniciantes que desejam aprender sobre Phyton.
+							O workshop contará com teorias e práticas visando usar o terminal python, criar arquivos .py com funções, classes e operadores básicos.
+							Sem pré requisitos.
+							Duração: 5h
+							Data: 17 e 18 de Outubro das 19:00 às 21:40
+							Local:</p>
+							</div>							
+						</div>
+					</div>
+				</div>
+				<!-- Modal -->
+				
+				
 				<div class="col">
 					<h4>HTML + CSS</h4><p>por Bruna Moreira</p>
 				</div>
@@ -101,64 +123,71 @@
         
         <h1>MINISTRANTES</h1>
 		</br></br>
-		<section class="grid-container">
+		<section>
 			<div class="row align-items-center">
-				<div class="col">
+				<div class="col-md-auto">
 					<div class="card text-center" style="width: 18rem;">
-						<div class="card-body" data-toggle="modal" data-target="#bruna"><img src="img/Bruna Moreira.jpg" width="100" class="foto"/></div>
-						<a href="#"><span>Bruna Moreira</span></a>
-						<a href="https://www.linkedin.com/in/brunamoreiral/" target="blank"><img src="img/linkedin.png" width="20"/></a>
-						<!-- Modal -->
-						<div class="modal fade" id="bruna" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-							<div class="modal-dialog modal-dialog-centered" role="document">
-								<div class="modal-content">
-									<div class="modal-header">
+						<div class="card-body">
+							<div class="pop" data-toggle="modal" data-target="#bruna"><img src="img/bruna.jpg" width="100" class="foto"/>
+							</div><br/>
+							<span>Bruna Moreira</span>
+							<br/>							
+							<a href=https://www.linkedin.com/in/brunamoreiral/><img src="img/linkedin.png" width="20"></a>
+							<!-- Modal -->
+							<div class="modal fade" id="bruna" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+								<div class="modal-dialog modal-dialog-centered" role="document">
+									<div class="modal-content">
+									  <div class="modal-header">
 										<h5 class="modal-title" id="exampleModalCenterTitle">Bruna Moreira</h5>
 										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-										 <span aria-hidden="true">&times;</span>
+										  <span aria-hidden="true">&times;</span>
 										</button>
-									</div>
-									<div class="modal-body">
+									  </div>
+									  <div class="modal-body">
 										<p>Engenheira de Software formada pela Universidade de Brasília, atualmente professora da mesma instituição e integrante do Lappis, laboratório de software livre da UnB campus Gama e colaboradora do projeto Empurrando Juntos do Ministério dos Direitos Humanos. É PyLady de coração com workshop de programação na Campus Party BSB  e está organizando o DjangoGirls em Brasília. Estuda gamificação e experiência de usuário. Um de seus hobbies é arte digital.</p>
-									</div>									  
-								</div>
-							</div>
-						</div>
-						<!-- Modal -->
-					</div>
-				</div>
-			
-				<div class="col">
-					<div class="card text-center" style="width: 18rem;">
-						<div class="card-body" data-toggle="modal" data-target="#helena"><img src="img/Helena Simões.jpg" width="100" class="foto"/></div>
-						<a href="#"><span>Helena Simôes</span></a>
-						<a href="https://www.linkedin.com/in/simoeshelena/" target="blank"><img src="img/linkedin.png" width="20"></a>
-						<!-- Modal -->
-						<div class="modal fade" id="helena" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-							<div class="modal-dialog modal-dialog-centered" role="document">
-								<div class="modal-content">
-									<div class="modal-header">
-										<h5 class="modal-title" id="exampleModalCenterTitle">Helena Simôes</h5>
-										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-										<span aria-hidden="true">&times;</span>
-										</button>
+									  </div>									  
 									</div>
-									<div class="modal-body">
-										<p>UX Designer na AIS Digital. Executa projetos de experiência do usuário, interfaces digitais, pesquisa em design, testes com usuários, análise heurísticas e consultoria na área digital. Realizou pesquisas em Design, Usabilidade e Educação na UnB e na Apple Developer Academy | UCB. Trabalhou no Senado Federal como designer para o DataSenado e Observatório da Mulher contra a Violência. Bacharela em Design pela Universidade de Brasília (UnB), especialista em Design de Interação pela California College of the Arts, técnica em Design Gráfico formada pelo SENAI - DF e Ganhadora do Certificado de Excelência Internacional WorldSkills. Adora falar de distopias sci-fi e aprender sobre programação. Faz protótipos de hardware por hobbie. Ama gatos, chás, artigos de papelaria e aprender e ensinar sobre tudo.</p>
-									</div>		
 								</div>
 							</div>
+							<!-- Modal -->
 						</div>
-						<!-- Modal -->
+					</div>
+				</div></br>			
+				<div class="col-md-auto">
+					<div class="card text-center" style="width: 18rem;">
+						<div class="card-body">
+							<div class="pop" data-toggle="modal" data-target="#helena"><img src="img/helena.jpg" width="100" class="foto"/>
+							</div><br/>
+							<span>Helena Simões</span>
+							<br/>							
+							<a href=https://www.linkedin.com/in/simoeshelena/><img src="img/linkedin.png" width="20"></a>
+							<!-- Modal -->
+							<div class="modal fade" id="helena" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+								<div class="modal-dialog modal-dialog-centered" role="document">
+									<div class="modal-content">
+									  <div class="modal-header">
+										<h5 class="modal-title" id="exampleModalCenterTitle">Helena Simões</h5>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										  <span aria-hidden="true">&times;</span>
+										</button>
+									  </div>
+									  <div class="modal-body">
+										<p>UX Designer na AIS Digital. Executa projetos de experiência do usuário, interfaces digitais, pesquisa em design, testes com usuários, análise heurísticas e consultoria na área digital. Realizou pesquisas em Design, Usabilidade e Educação na UnB e na Apple Developer Academy | UCB. Trabalhou no Senado Federal como designer para o DataSenado e Observatório da Mulher contra a Violência. Bacharela em Design pela Universidade de Brasília (UnB), especialista em Design de Interação pela California College of the Arts, técnica em Design Gráfico formada pelo SENAI - DF e Ganhadora do Certificado de Excelência Internacional WorldSkills. Adora falar de distopias sci-fi e aprender sobre programação. Faz protótipos de hardware por hobbie. Ama gatos, chás, artigos de papelaria e aprender e ensinar sobre tudo.</p>
+									  </div>									  
+									</div>
+								</div>
+							</div>
+							<!-- Modal -->
+						</div>
 					</div>
 				</div>
-			
-				<div class="col">
+				</br>
+				<div class="col-md-auto">
 					<div class="card text-center" style="width: 18rem;">
 						<div class="card-body">										
 							<div class="pupe" data-toggle="modal" data-target="#fabiola"><img src="img/fabiola.jpg" width="100" class="foto"/>
 							</div><br/>
-							<a href="#"><span>Fabíola Malta</span></a>
+							<span>Fabíola Malta</span>
 							</br>							
 							<a href="https://www.linkedin.com/in/fab%C3%ADola-malta-fleury-390460144/" target="blank"><img src="img/linkedin.png" width="20"></a>
 							<!-- Modal -->
@@ -180,17 +209,14 @@
 							<!-- Modal -->
 						</div>
 					</div>
-				</div>
-			</div>
-			</br>
-			
-			<div class="row align-items-center">
-				<div class="col">
+				</div>			
+				<div class="w-100 d-none d-md-block"></div>
+				<div class="col-md-auto">
 					<div class="card text-center" style="width: 18rem;">
 						<div class="card-body">
 							<div class="pop" data-toggle="modal" data-target="#nina"><img src="img/nina.jpeg" width="100" class="foto"/>
 							</div><br/>
-							<a href="#"><span>Nina Schmidt</span></a>
+							<span>Nina Schmidt</span>
 							<br/>							
 							<a href=https://www.linkedin.com/in/karenina-borba-schmidt-99a943125/ target="blank" target="blank"><img src="img/linkedin.png" width="20"></a>
 							<!-- Modal -->
@@ -212,43 +238,14 @@
 							<!-- Modal -->
 						</div>
 					</div>
-				</div>
-				<div class="col">
-					<div class="card text-center" style="width: 18rem;">
-						<div class="card-body">
-							<div class="po" data-toggle="modal" data-target="#pacheco"><img src="img/Raquel Pacheco.jpg" width="100" class="foto"/>
-							</div>
-							<br/>
-							<a href="#"><span>Raquel Pacheco</span></a>
-							</br>
-							<a href="https://www.linkedin.com/in/raquelppacheco/" target="blank"><img src="img/linkedin.png" width="20"></a>
-							<!-- Modal -->
-							<div class="modal fade" id="pacheco" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-								<div class="modal-dialog modal-dialog-centered" role="document">
-									<div class="modal-content">
-									  <div class="modal-header">
-										<h5 class="modal-title" id="exampleModalCenterTitle">Raquel Pacheco</h5>
-										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-										  <span aria-hidden="true">&times;</span>
-										</button>
-									  </div>
-									  <div class="modal-body">
-										<p>Trabalha na Oni, uma empresa que trabalha com design como forma de potencializar empresas, gerando soluções relevantes para as pessoas. Formada em design e mestranda em educação, Raquel busca formas de utilizar o modelo mental de design em diversas áreas, com o objetivo de tornar o mundo um lugar mais acolhedor para todas as pessoas.</p>
-									  </div>									  
-									</div>
-								</div>
-							</div>
-							<!-- Modal -->
-							
-						</div>
-					</div>
-				</div>
-				<div class="col">
+				</div></br>
+				
+				<div class="col-md-auto">
 					<div class="card text-center" style="width: 18rem;">
 						<div class="card-body">
 							<div class="p" data-toggle="modal" data-target="#almeida"><img src="img/Wesley Almeida.jpeg" width="100" class="foto"/>
 							</div><br/>
-							<a href="#"><span>Wesley Almeida</span></a>
+							<span>Wesley Almeida</span>
 							</br>							
 							<a href="https://www.linkedin.com/in/walmeidadf/" target="blank"><img src="img/linkedin.png" width="20"></a>
 							<!-- Modal -->
@@ -270,14 +267,13 @@
 							<!-- Modal -->
 						</div>
 					</div>
-				</div>
-			<div class="row align-items-center">	
-				<div class="col">
+				</div></br>				
+				<div class="col-md-auto">
 					<div class="card text-center" style="width: 18rem;">
 						<div class="card-body">
 							<div class="p" data-toggle="modal" data-target="#jeremias"><img src="img/jeremias.jpeg" width="100" class="foto"/>
 							</div><br/>
-							<a href="#"><span>Jeremias Moreira</span></a>
+							<span>Jeremias Moreira</span>
 							</br>
 							<a href="https://www.linkedin.com/in/jeremias-gomes-974a31a9" target="blank"><img src="img/linkedin.png" width="20"></a>
 							<!-- Modal -->
@@ -300,7 +296,36 @@
 						</div>
 					</div>
 				</div>
-			</div>
+				</br>
+				<div class="col-md-auto">
+					<div class="card text-center" style="width: 18rem;">
+						<div class="card-body">
+							<div class="p" data-toggle="modal" data-target="#bruno"><img src="img/bruno.jpg" width="100" class="foto"/>
+							</div><br/>
+							<span>Bruno Correia</span>
+							</br>
+							<a href="https://www.linkedin.com/in/brunocorreia8/" target="blank"><img src="img/linkedin.png" width="20"></a>
+							<!-- Modal -->
+							<div class="modal fade" id="bruno" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+								<div class="modal-dialog modal-dialog-centered" role="document">
+									<div class="modal-content">
+									  <div class="modal-header">
+										<h5 class="modal-title" id="exampleModalCenterTitle">Bruno Correia</h5>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										  <span aria-hidden="true">&times;</span>
+										</button>
+									  </div>
+									  <div class="modal-body">
+										<p>Formado em design na UnB, Atualmente Consultor UX na Digital, que é o setor de design e inovação da Stefanini, também trabalhou 3 anos na EJ Lamparina Design onde foi Presidente Organizacional em 2014.</p>
+									  </div>									  
+									</div>
+								</div>
+							</div>
+							<!-- Modal -->
+						</div>
+					</div>
+				</div>
+			
 			</div>
 		</section>
 	</div>
