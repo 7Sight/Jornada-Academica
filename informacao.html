@@ -14,44 +14,42 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
  
-    <!-- Cabeçalho -->
-    <header>
-        <div class="topnav" id="myTopnav">            
-			<img src="img/logo.png" alt="logo" class="logo">
-			<nav>
-				<ul>
-					<li><a href="index.html"><b>SOBRE</b></a></li>
-					<li><a href="informacao.html" class="active"><b>INFORMAÇÕES</b></a></li>
-					<li><a href="inscricao.html"><b>INSCRIÇÕES</b></a></li>
-					<li><a href="duvida.html"><b>DÚVIDAS</b></a></li>
-					<a href="javascript:void(0);" class="icon" onclick="myFunction()">
-						<i class="fa fa-bars"></i>
-					</a>
-					<script>
-						function myFunction() {
-						var x = document.getElementById("myTopnav");
-						if (x.className === "topnav") {
-							x.className += " responsive";
-						} else {
-							x.className = "topnav";
-						}
-						}					
-					</script>
-				</ul>	
-			</nav>
-		</div>
-    </header>
-	
+<!-- Cabeçalho -->
+<header>
+    <div class="topnav" id="myTopnav">            
+		<img src="img/logo.png" alt="logo" class="logo">
+		<nav>
+			<a href="index.html"><b>SOBRE</b></a>
+			<a href="informacao.html" class="active"><b>INFORMAÇÕES</b></a>
+			<a href="inscricao.html"><b>INSCRIÇÕES</b></a>
+			<a href="duvida.html"><b>DÚVIDAS</b></a>
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				<i class="fa fa-bars"></i>
+			</a>
+			<script>
+				function myFunction() {
+					var x = document.getElementById("myTopnav");
+					if (x.className === "topnav") {
+						x.className += " responsive";
+					} else {
+						x.className = "topnav";
+					}
+				}					
+			</script>					
+		</nav>
+	</div>
+</header>
+	</br>
  <body>
     <!-- Conteúdo-->
     <div>
-		</br></br>
-    	<h1>INFORMAÇÕES</h1>
+		<section>
+			</br></br>
+			<h1>INFORMAÇÕES</h1>
 		
-		</br></br>
-		
- 		<section>
-			<div class="row justify-content-md-center">
+			</br></br>
+			<div class="container-fluid">
+			<div class="row justify-content-sm-center">
 				<div class="col-xs-6 col-sm-3">
 					<h4>Data</h4><p>17 e 18 de Outubro</p>
 				</div>
@@ -61,6 +59,7 @@
 				<div class="col-xs-6 col-sm-3">
 					<h4>Local</h4><p>Laboratórios - UNIEURO Águas Claras</p>
 				</div>
+			</div>
 			</div>
  		</section>
          
@@ -75,8 +74,8 @@
 		
 		</br></br>
 		
-    	
-			<div class="row justify-content-md-center">
+    	<div class="container-fluid">
+			<div class="row justify-content-sm-center">
 				<div class="col-xs-6 col-sm-3" data-toggle="modal" data-target="#python">
 					<h4>Python</h4><p>por Fabíola Malta</p>
 				</div>
@@ -192,8 +191,10 @@
 				</div>
 				<!-- Modal -->
 			</div>
+		</div>
 			</br></br>
-			<div class="row justify-content-md-center">
+		<div class="container-fluid">
+			<div class="row justify-content-sm-center">
 				<div class="col-xs-6 col-sm-3" data-toggle="modal" data-target="#design">
 					<h4>Design Thinking</h4><p>por Bruno Correia</p>
 				</div>
@@ -271,216 +272,217 @@
 			</div>
 		</br></br>
  		</section>
-		
-    </div>
+		</div>
+		</div>
 </br>
     <div>
         
         <h1>MINISTRANTES</h1>
 		</br></br>
 		<section>
-			<div class="row justify-content-md-center">
-				<div class="col-xs-6 col-sm-3">
-					<div class="card text-center" style="width: 18rem;">
-						<div class="card-body">
-							<div class="pop" data-toggle="modal" data-target="#bruna"><img src="img/bruna.jpg" width="100" class="foto"/>
-							</div><br/>
-							<span>Bruna Moreira</span>
-							<br/>							
-							<a href=https://www.linkedin.com/in/brunamoreiral/><img src="img/linkedin.png" width="20"></a>
-							<!-- Modal -->
-							<div class="modal fade" id="bruna" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-								<div class="modal-dialog modal-dialog-centered" role="document">
-									<div class="modal-content">
-									  <div class="modal-header">
-										<h5 class="modal-title" id="exampleModalCenterTitle">Bruna Moreira</h5>
-										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-										  <span aria-hidden="true">&times;</span>
-										</button>
-									  </div>
-									  <div class="modal-body">
-										<p>Engenheira de Software formada pela Universidade de Brasília, atualmente professora da mesma instituição e integrante do Lappis, laboratório de software livre da UnB campus Gama e colaboradora do projeto Empurrando Juntos do Ministério dos Direitos Humanos. É PyLady de coração com workshop de programação na Campus Party BSB  e está organizando o DjangoGirls em Brasília. Estuda gamificação e experiência de usuário. Um de seus hobbies é arte digital.</p>
-									  </div>									  
-									</div>
-								</div>
-							</div>
-							<!-- Modal -->
-						</div>
-					</div>
-				</div></br>			
-				<div class="col-xs-6 col-sm-3">
-					<div class="card text-center" style="width: 18rem;">
-						<div class="card-body">
-							<div class="pop" data-toggle="modal" data-target="#helena"><img src="img/helena.jpg" width="100" class="foto"/>
-							</div><br/>
-							<span>Helena Simões</span>
-							<br/>							
-							<a href=https://www.linkedin.com/in/simoeshelena/><img src="img/linkedin.png" width="20"></a>
-							<!-- Modal -->
-							<div class="modal fade" id="helena" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-								<div class="modal-dialog modal-dialog-centered" role="document">
-									<div class="modal-content">
-									  <div class="modal-header">
-										<h5 class="modal-title" id="exampleModalCenterTitle">Helena Simões</h5>
-										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-										  <span aria-hidden="true">&times;</span>
-										</button>
-									  </div>
-									  <div class="modal-body">
-										<p>UX Designer na AIS Digital. Executa projetos de experiência do usuário, interfaces digitais, pesquisa em design, testes com usuários, análise heurísticas e consultoria na área digital. Realizou pesquisas em Design, Usabilidade e Educação na UnB e na Apple Developer Academy | UCB. Trabalhou no Senado Federal como designer para o DataSenado e Observatório da Mulher contra a Violência. Bacharela em Design pela Universidade de Brasília (UnB), especialista em Design de Interação pela California College of the Arts, técnica em Design Gráfico formada pelo SENAI - DF e Ganhadora do Certificado de Excelência Internacional WorldSkills. Adora falar de distopias sci-fi e aprender sobre programação. Faz protótipos de hardware por hobbie. Ama gatos, chás, artigos de papelaria e aprender e ensinar sobre tudo.</p>
-									  </div>									  
-									</div>
-								</div>
-							</div>
-							<!-- Modal -->
-						</div>
-					</div>
-				</div>
-				</br>
-				<div class="col-xs-6 col-sm-3">
-					<div class="card text-center" style="width: 18rem;">
-						<div class="card-body">										
-							<div class="pupe" data-toggle="modal" data-target="#fabiola"><img src="img/fabiola.jpg" width="100" class="foto"/>
-							</div><br/>
-							<span>Fabíola Malta</span>
-							</br>							
-							<a href="https://www.linkedin.com/in/fab%C3%ADola-malta-fleury-390460144/" target="blank"><img src="img/linkedin.png" width="20"></a>
-							<!-- Modal -->
-							<div class="modal fade" id="fabiola" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-								<div class="modal-dialog modal-dialog-centered" role="document">
-									<div class="modal-content">
-										<div class="modal-header">
-											<h5 class="modal-title" id="exampleModalCenterTitle">Fabíola Malta</h5>
+			<div class="container-fluid">
+				<div class="row justify-content-sm-center">
+					<div  class="col-xs-6 col-sm-3">
+						<div class="text-center" style="width: 18rem;">
+							<div class="card-body">
+								<div class="pop" data-toggle="modal" data-target="#bruna"><img src="img/bruna.jpg" width="100" class="foto"/>
+								</div><br/>
+								<span>Bruna Moreira</span>
+								<br/>							
+								<a href=https://www.linkedin.com/in/brunamoreiral/><img src="img/linkedin.png" width="20"></a>
+								<!-- Modal -->
+								<div class="modal fade" id="bruna" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+									<div class="modal-dialog modal-dialog-centered" role="document">
+										<div class="modal-content">
+										  <div class="modal-header">
+											<h5 class="modal-title" id="exampleModalCenterTitle">Bruna Moreira</h5>
 											<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-											<span aria-hidden="true">&times;</span>
+											  <span aria-hidden="true">&times;</span>
 											</button>
+										  </div>
+										  <div class="modal-body">
+											<p>Engenheira de Software formada pela Universidade de Brasília, atualmente professora da mesma instituição e integrante do Lappis, laboratório de software livre da UnB campus Gama e colaboradora do projeto Empurrando Juntos do Ministério dos Direitos Humanos. É PyLady de coração com workshop de programação na Campus Party BSB  e está organizando o DjangoGirls em Brasília. Estuda gamificação e experiência de usuário. Um de seus hobbies é arte digital.</p>
+										  </div>									  
 										</div>
-										<div class="modal-body">
-											<p>Graduanda em Engenharia de Software, desenvolvedora backend no projeto Empurrando Juntos e desenvolvedora no Laboratório de Neurociência e Comportamento da UnB. Participante do Pyladies DF.</p>
-										</div>		
 									</div>
 								</div>
+								<!-- Modal -->
 							</div>
-							<!-- Modal -->
+						</div>
+					</div></br>			
+					<div class="col-xs-6 col-sm-3">
+						<div class="text-center" style="width: 18rem;">
+							<div class="card-body">
+								<div class="pop" data-toggle="modal" data-target="#helena"><img src="img/helena.jpg" width="100" class="foto"/>
+								</div><br/>
+								<span>Helena Simões</span>
+								<br/>							
+								<a href=https://www.linkedin.com/in/simoeshelena/><img src="img/linkedin.png" width="20"></a>
+								<!-- Modal -->
+								<div class="modal fade" id="helena" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+									<div class="modal-dialog modal-dialog-centered" role="document">
+										<div class="modal-content">
+										  <div class="modal-header">
+											<h5 class="modal-title" id="exampleModalCenterTitle">Helena Simões</h5>
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											  <span aria-hidden="true">&times;</span>
+											</button>
+										  </div>
+										  <div class="modal-body">
+											<p>UX Designer na AIS Digital. Executa projetos de experiência do usuário, interfaces digitais, pesquisa em design, testes com usuários, análise heurísticas e consultoria na área digital. Realizou pesquisas em Design, Usabilidade e Educação na UnB e na Apple Developer Academy | UCB. Trabalhou no Senado Federal como designer para o DataSenado e Observatório da Mulher contra a Violência. Bacharela em Design pela Universidade de Brasília (UnB), especialista em Design de Interação pela California College of the Arts, técnica em Design Gráfico formada pelo SENAI - DF e Ganhadora do Certificado de Excelência Internacional WorldSkills. Adora falar de distopias sci-fi e aprender sobre programação. Faz protótipos de hardware por hobbie. Ama gatos, chás, artigos de papelaria e aprender e ensinar sobre tudo.</p>
+										  </div>									  
+										</div>
+									</div>
+								</div>
+								<!-- Modal -->
+							</div>
 						</div>
 					</div>
-				</div>			
-				
-				<div class="col-xs-6 col-sm-3">
-					<div class="card text-center" style="width: 18rem;">
-						<div class="card-body">
-							<div class="pop" data-toggle="modal" data-target="#nina"><img src="img/nina.jpeg" width="100" class="foto"/>
-							</div><br/>
-							<span>Nina Schmidt</span>
-							<br/>							
-							<a href=https://www.linkedin.com/in/karenina-borba-schmidt-99a943125/ target="blank" target="blank"><img src="img/linkedin.png" width="20"></a>
-							<!-- Modal -->
-							<div class="modal fade" id="nina" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-								<div class="modal-dialog modal-dialog-centered" role="document">
-									<div class="modal-content">
-									  <div class="modal-header">
-										<h5 class="modal-title" id="exampleModalCenterTitle">Nina Schmidt</h5>
-										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-										  <span aria-hidden="true">&times;</span>
-										</button>
-									  </div>
-									  <div class="modal-body">
-										<p>Bióloga e trabalha com coordenação de projetos ambientais na empresa de consultoria ambiental Zago Engenharia. Formada na Unb em 2013 trabalha com consultorias desde 2014, possui pós graduação em geoprocessamento e desenvolvimento sustentável. Utiliza o método Scrum para gerenciamento de equipes em projetos na empresa GrupoZago.</p>
-									  </div>									  
+					</br>
+					<div class="col-xs-6 col-sm-3">
+						<div class="text-center" style="width: 18rem;">
+							<div class="card-body">										
+								<div class="pupe" data-toggle="modal" data-target="#fabiola"><img src="img/fabiola.jpg" width="100" class="foto"/>
+								</div><br/>
+								<span>Fabíola Malta</span>
+								</br>							
+								<a href="https://www.linkedin.com/in/fab%C3%ADola-malta-fleury-390460144/" target="blank"><img src="img/linkedin.png" width="20"></a>
+								<!-- Modal -->
+								<div class="modal fade" id="fabiola" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+									<div class="modal-dialog modal-dialog-centered" role="document">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h5 class="modal-title" id="exampleModalCenterTitle">Fabíola Malta</h5>
+												<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+												<span aria-hidden="true">&times;</span>
+												</button>
+											</div>
+											<div class="modal-body">
+												<p>Graduanda em Engenharia de Software, desenvolvedora backend no projeto Empurrando Juntos e desenvolvedora no Laboratório de Neurociência e Comportamento da UnB. Participante do Pyladies DF.</p>
+											</div>		
+										</div>
 									</div>
 								</div>
+								<!-- Modal -->
 							</div>
-							<!-- Modal -->
+						</div>
+					</div>			
+					
+					<div class="col-xs-6 col-sm-3">
+						<div class="text-center" style="width: 18rem;">
+							<div class="card-body">
+								<div class="pop" data-toggle="modal" data-target="#nina"><img src="img/nina.jpeg" width="100" class="foto"/>
+								</div><br/>
+								<span>Nina Schmidt</span>
+								<br/>							
+								<a href=https://www.linkedin.com/in/karenina-borba-schmidt-99a943125/ target="blank" target="blank"><img src="img/linkedin.png" width="20"></a>
+								<!-- Modal -->
+								<div class="modal fade" id="nina" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+									<div class="modal-dialog modal-dialog-centered" role="document">
+										<div class="modal-content">
+										  <div class="modal-header">
+											<h5 class="modal-title" id="exampleModalCenterTitle">Nina Schmidt</h5>
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											  <span aria-hidden="true">&times;</span>
+											</button>
+										  </div>
+										  <div class="modal-body">
+											<p>Bióloga e trabalha com coordenação de projetos ambientais na empresa de consultoria ambiental Zago Engenharia. Formada na Unb em 2013 trabalha com consultorias desde 2014, possui pós graduação em geoprocessamento e desenvolvimento sustentável. Utiliza o método Scrum para gerenciamento de equipes em projetos na empresa GrupoZago.</p>
+										  </div>									  
+										</div>
+									</div>
+								</div>
+								<!-- Modal -->
+							</div>
+						</div>
+					</div></br>
+					<div class="w-100 d-none d-md-block"></div>
+					<div class="col-xs-6 col-sm-3">
+						<div class="text-center" style="width: 18rem;">
+							<div class="card-body">
+								<div class="p" data-toggle="modal" data-target="#almeida"><img src="img/Wesley Almeida.jpeg" width="100" class="foto"/>
+								</div><br/>
+								<span>Wesley Almeida</span>
+								</br>							
+								<a href="https://www.linkedin.com/in/walmeidadf/" target="blank"><img src="img/linkedin.png" width="20"></a>
+								<!-- Modal -->
+								<div class="modal fade" id="almeida" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+									<div class="modal-dialog modal-dialog-centered" role="document">
+										<div class="modal-content">
+										  <div class="modal-header">
+											<h5 class="modal-title" id="exampleModalCenterTitle">Wesley Almeida</h5>
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											  <span aria-hidden="true">&times;</span>
+											</button>
+										  </div>
+										  <div class="modal-body">
+											<p>Mais de 25 anos de experiência no mercado de TIC, sempre trabalhando em projetos de inovação. Desde 2016, está à frente da Cotidiano - Aceleradora de Startups, onde já rodaram 4 programas de aceleração e investiram em mais de 25 empresas. Acaba de chegar de uma temporada de um ano no Vale Silício onde se aprofundou no tema de empreendedorismo de startups, venture capital e tecnologias disruptivas.</p>
+										  </div>									  
+										</div>
+									</div>
+								</div>
+								<!-- Modal -->
+							</div>
+						</div>
+					</div>			
+					<div class="col-xs-6 col-sm-3">
+						<div class="text-center" style="width: 18rem;">
+							<div class="card-body">
+								<div class="p" data-toggle="modal" data-target="#jeremias"><img src="img/jeremias.jpeg" width="100" class="foto"/>
+								</div><br/>
+								<span>Jeremias Moreira</span>
+								</br>
+								<a href="https://www.linkedin.com/in/jeremias-gomes-974a31a9" target="blank"><img src="img/linkedin.png" width="20"></a>
+								<!-- Modal -->
+								<div class="modal fade" id="jeremias" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+									<div class="modal-dialog modal-dialog-centered" role="document">
+										<div class="modal-content">
+										  <div class="modal-header">
+											<h5 class="modal-title" id="exampleModalCenterTitle">Jeremias Moreira</h5>
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											  <span aria-hidden="true">&times;</span>
+											</button>
+										  </div>
+										  <div class="modal-body">
+											<p>Doutorando em Ciência da Computação pela Universidade de Brasília, atualmente desenvolve pesquisa relacionada ao uso de Computação de Alto Desempenho no auxílio à execução de workflows de Bioinformática. É entusiasta de diversos assuntos ligados a área de Computação de Alta Performance, Segurança da Informação, Criptografia e Capture the Flag.</p>
+										  </div>									  
+										</div>
+									</div>
+								</div>
+								<!-- Modal -->
+							</div>
 						</div>
 					</div>
-				</div></br>
-				<div class="w-100 d-none d-md-block"></div>
-				<div class="col-xs-6 col-sm-3">
-					<div class="card text-center" style="width: 18rem;">
-						<div class="card-body">
-							<div class="p" data-toggle="modal" data-target="#almeida"><img src="img/Wesley Almeida.jpeg" width="100" class="foto"/>
-							</div><br/>
-							<span>Wesley Almeida</span>
-							</br>							
-							<a href="https://www.linkedin.com/in/walmeidadf/" target="blank"><img src="img/linkedin.png" width="20"></a>
-							<!-- Modal -->
-							<div class="modal fade" id="almeida" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-								<div class="modal-dialog modal-dialog-centered" role="document">
-									<div class="modal-content">
-									  <div class="modal-header">
-										<h5 class="modal-title" id="exampleModalCenterTitle">Wesley Almeida</h5>
-										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-										  <span aria-hidden="true">&times;</span>
-										</button>
-									  </div>
-									  <div class="modal-body">
-										<p>Mais de 25 anos de experiência no mercado de TIC, sempre trabalhando em projetos de inovação. Desde 2016, está à frente da Cotidiano - Aceleradora de Startups, onde já rodaram 4 programas de aceleração e investiram em mais de 25 empresas. Acaba de chegar de uma temporada de um ano no Vale Silício onde se aprofundou no tema de empreendedorismo de startups, venture capital e tecnologias disruptivas.</p>
-									  </div>									  
+					</br>
+					<div class="col-xs-6 col-sm-3">
+						<div class="text-center" style="width: 18rem;">
+							<div class="card-body">
+								<div class="p" data-toggle="modal" data-target="#bruno"><img src="img/bruno.jpg" width="100" class="foto"/>
+								</div><br/>
+								<span>Bruno Correia</span>
+								</br>
+								<a href="https://www.linkedin.com/in/brunocorreia8/" target="blank"><img src="img/linkedin.png" width="20"></a>
+								<!-- Modal -->
+								<div class="modal fade" id="bruno" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+									<div class="modal-dialog modal-dialog-centered" role="document">
+										<div class="modal-content">
+										  <div class="modal-header">
+											<h5 class="modal-title" id="exampleModalCenterTitle">Bruno Correia</h5>
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											  <span aria-hidden="true">&times;</span>
+											</button>
+										  </div>
+										  <div class="modal-body">
+											<p>Formado em design na UnB, Atualmente Consultor UX na Digital, que é o setor de design e inovação da Stefanini, também trabalhou 3 anos na EJ Lamparina Design onde foi Presidente Organizacional em 2014.</p>
+										  </div>									  
+										</div>
 									</div>
 								</div>
+								<!-- Modal -->
 							</div>
-							<!-- Modal -->
-						</div>
-					</div>
-				</div>			
-				<div class="col-xs-6 col-sm-3">
-					<div class="card text-center" style="width: 18rem;">
-						<div class="card-body">
-							<div class="p" data-toggle="modal" data-target="#jeremias"><img src="img/jeremias.jpeg" width="100" class="foto"/>
-							</div><br/>
-							<span>Jeremias Moreira</span>
-							</br>
-							<a href="https://www.linkedin.com/in/jeremias-gomes-974a31a9" target="blank"><img src="img/linkedin.png" width="20"></a>
-							<!-- Modal -->
-							<div class="modal fade" id="jeremias" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-								<div class="modal-dialog modal-dialog-centered" role="document">
-									<div class="modal-content">
-									  <div class="modal-header">
-										<h5 class="modal-title" id="exampleModalCenterTitle">Jeremias Moreira</h5>
-										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-										  <span aria-hidden="true">&times;</span>
-										</button>
-									  </div>
-									  <div class="modal-body">
-										<p>Doutorando em Ciência da Computação pela Universidade de Brasília, atualmente desenvolve pesquisa relacionada ao uso de Computação de Alto Desempenho no auxílio à execução de workflows de Bioinformática. É entusiasta de diversos assuntos ligados a área de Computação de Alta Performance, Segurança da Informação, Criptografia e Capture the Flag.</p>
-									  </div>									  
-									</div>
-								</div>
-							</div>
-							<!-- Modal -->
 						</div>
 					</div>
 				</div>
-				</br>
-				<div class="col-xs-6 col-sm-3">
-					<div class="card text-center" style="width: 18rem;">
-						<div class="card-body">
-							<div class="p" data-toggle="modal" data-target="#bruno"><img src="img/bruno.jpg" width="100" class="foto"/>
-							</div><br/>
-							<span>Bruno Correia</span>
-							</br>
-							<a href="https://www.linkedin.com/in/brunocorreia8/" target="blank"><img src="img/linkedin.png" width="20"></a>
-							<!-- Modal -->
-							<div class="modal fade" id="bruno" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-								<div class="modal-dialog modal-dialog-centered" role="document">
-									<div class="modal-content">
-									  <div class="modal-header">
-										<h5 class="modal-title" id="exampleModalCenterTitle">Bruno Correia</h5>
-										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-										  <span aria-hidden="true">&times;</span>
-										</button>
-									  </div>
-									  <div class="modal-body">
-										<p>Formado em design na UnB, Atualmente Consultor UX na Digital, que é o setor de design e inovação da Stefanini, também trabalhou 3 anos na EJ Lamparina Design onde foi Presidente Organizacional em 2014.</p>
-									  </div>									  
-									</div>
-								</div>
-							</div>
-							<!-- Modal -->
-						</div>
-					</div>
-				</div>
-			
 			</div>
 		</section>
 	</div>
