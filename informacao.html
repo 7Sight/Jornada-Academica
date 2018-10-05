@@ -1,31 +1,42 @@
 <!DOCTYPE html>
 <html>
 <head>
- 
     <title>Informações</title>
     <meta charset="UTF-8">
-    
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 	<script language=javascript type="text/javascript"></script>
-	
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
- 
-
  
     <!-- Cabeçalho -->
     <header>
-        <div class="container">            
+        <div class="topnav" id="myTopnav">            
 			<img src="img/logo.png" alt="logo" class="logo">
 			<nav>
 				<ul>
 					<li><a href="index.html"><b>SOBRE</b></a></li>
-					<li><a href="informacao.html"><b>INFORMAÇÕES</b></a></li>
+					<li><a href="informacao.html" class="active"><b>INFORMAÇÕES</b></a></li>
 					<li><a href="inscricao.html"><b>INSCRIÇÕES</b></a></li>
 					<li><a href="duvida.html"><b>DÚVIDAS</b></a></li>
+					<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+						<i class="fa fa-bars"></i>
+					</a>
+					<script>
+						function myFunction() {
+						var x = document.getElementById("myTopnav");
+						if (x.className === "topnav") {
+							x.className += " responsive";
+						} else {
+							x.className = "topnav";
+						}
+						}					
+					</script>
 				</ul>	
 			</nav>
 		</div>
@@ -40,14 +51,14 @@
 		</br></br>
 		
  		<section>
-			<div class="row">
-				<div class="col">
+			<div class="row justify-content-md-center">
+				<div class="col-xs-6 col-sm-3">
 					<h4>Data</h4><p>17 e 18 de Outubro</p>
 				</div>
-			    <div class="col-md-auto">
+			    <div class="col-xs-6 col-sm-3">
 					<h4>Horário</h4><p>19:00 às 21:40</p>
 				</div>
-				<div class="col">
+				<div class="col-xs-6 col-sm-3">
 					<h4>Local</h4><p>Laboratórios - UNIEURO Águas Claras</p>
 				</div>
 			</div>
@@ -65,8 +76,8 @@
 		</br></br>
 		
     	
-			<div class="row align-items-center">
-				<div class="col" data-toggle="modal" data-target="#python">
+			<div class="row justify-content-md-center">
+				<div class="col-xs-6 col-sm-3" data-toggle="modal" data-target="#python">
 					<h4>Python</h4><p>por Fabíola Malta</p>
 				</div>
 				<!-- Modal -->
@@ -93,7 +104,7 @@
 				<!-- Modal -->
 				
 				
-				<div class="col" data-toggle="modal" data-target="#html">
+				<div class="col-xs-6 col-sm-3" data-toggle="modal" data-target="#html">
 					<h4>HTML + CSS</h4><p>por Bruna Moreira</p>
 				</div>
 				<!-- Modal -->
@@ -124,7 +135,7 @@
 					</div>
 				</div>
 				<!-- Modal -->
-				<div class="col" data-toggle="modal" data-target="#js">
+				<div class="col-xs-6 col-sm-3" data-toggle="modal" data-target="#js">
 					<h4>Capture the Flag</h4><p>por Jeremias Moreira</p>
 				</div>
 				<!-- Modal -->
@@ -149,7 +160,7 @@
 					</div>
 				</div>
 				<!-- Modal -->
-				<div class="col" data-toggle="modal" data-target="#scrun">
+				<div class="col-xs-6 col-sm-3" data-toggle="modal" data-target="#scrun">
 					<h4>Scrum</h4><p>por Isabela Cristina</p>
 				</div>
 				<!-- Modal -->
@@ -182,8 +193,8 @@
 				<!-- Modal -->
 			</div>
 			</br></br>
-			<div class="row align-items-center">
-				<div class="col" data-toggle="modal" data-target="#design">
+			<div class="row justify-content-md-center">
+				<div class="col-xs-6 col-sm-3" data-toggle="modal" data-target="#design">
 					<h4>Design Thinking</h4><p>por Bruno Correia</p>
 				</div>
 				<!-- Modal -->
@@ -207,7 +218,7 @@
 					</div>
 				</div>
 				<!-- Modal -->
-				<div class="col" data-toggle="modal" data-target="#ux">
+				<div class="col-xs-6 col-sm-3" data-toggle="modal" data-target="#ux">
 					<h4>UX -  Prototipação em papel</h4><p>por Helena Simôes</p>
 				</div>
 				<!-- Modal -->
@@ -232,7 +243,7 @@
 					</div>
 				</div>
 				<!-- Modal -->
-				<div class="col" data-toggle="modal" data-target="#zero">
+				<div class="col-xs-6 col-sm-3" data-toggle="modal" data-target="#zero">
 					<h4>Zero To Hero e Canvas</h4><p>por Wesley Almeida</p>
 				</div>
 				<!-- Modal -->
@@ -268,8 +279,8 @@
         <h1>MINISTRANTES</h1>
 		</br></br>
 		<section>
-			<div class="row align-items-center">
-				<div class="col-md-auto">
+			<div class="row justify-content-md-center">
+				<div class="col-xs-6 col-sm-3">
 					<div class="card text-center" style="width: 18rem;">
 						<div class="card-body">
 							<div class="pop" data-toggle="modal" data-target="#bruna"><img src="img/bruna.jpg" width="100" class="foto"/>
@@ -297,7 +308,7 @@
 						</div>
 					</div>
 				</div></br>			
-				<div class="col-md-auto">
+				<div class="col-xs-6 col-sm-3">
 					<div class="card text-center" style="width: 18rem;">
 						<div class="card-body">
 							<div class="pop" data-toggle="modal" data-target="#helena"><img src="img/helena.jpg" width="100" class="foto"/>
@@ -326,7 +337,7 @@
 					</div>
 				</div>
 				</br>
-				<div class="col-md-auto">
+				<div class="col-xs-6 col-sm-3">
 					<div class="card text-center" style="width: 18rem;">
 						<div class="card-body">										
 							<div class="pupe" data-toggle="modal" data-target="#fabiola"><img src="img/fabiola.jpg" width="100" class="foto"/>
@@ -354,8 +365,8 @@
 						</div>
 					</div>
 				</div>			
-				<div class="w-100 d-none d-md-block"></div>
-				<div class="col-md-auto">
+				
+				<div class="col-xs-6 col-sm-3">
 					<div class="card text-center" style="width: 18rem;">
 						<div class="card-body">
 							<div class="pop" data-toggle="modal" data-target="#nina"><img src="img/nina.jpeg" width="100" class="foto"/>
@@ -383,8 +394,8 @@
 						</div>
 					</div>
 				</div></br>
-				
-				<div class="col-md-auto">
+				<div class="w-100 d-none d-md-block"></div>
+				<div class="col-xs-6 col-sm-3">
 					<div class="card text-center" style="width: 18rem;">
 						<div class="card-body">
 							<div class="p" data-toggle="modal" data-target="#almeida"><img src="img/Wesley Almeida.jpeg" width="100" class="foto"/>
@@ -411,8 +422,8 @@
 							<!-- Modal -->
 						</div>
 					</div>
-				</div></br>				
-				<div class="col-md-auto">
+				</div>			
+				<div class="col-xs-6 col-sm-3">
 					<div class="card text-center" style="width: 18rem;">
 						<div class="card-body">
 							<div class="p" data-toggle="modal" data-target="#jeremias"><img src="img/jeremias.jpeg" width="100" class="foto"/>
@@ -441,7 +452,7 @@
 					</div>
 				</div>
 				</br>
-				<div class="col-md-auto">
+				<div class="col-xs-6 col-sm-3">
 					<div class="card text-center" style="width: 18rem;">
 						<div class="card-body">
 							<div class="p" data-toggle="modal" data-target="#bruno"><img src="img/bruno.jpg" width="100" class="foto"/>
@@ -475,11 +486,6 @@
 	</div>
 	</br></br>
     
-    
-
-    	
-    	
- 	
 </body>
 <!-- Rodapé -->
  <footer>Desenvolvido por 7Sight - 2018</footer>
