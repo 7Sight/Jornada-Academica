@@ -47,9 +47,9 @@ header::after {
 	clear: both;
 }
 
- .logo {	 
+.logo {	 
    	float: left;
-   	size: 10px 0;
+   	margin-left: 40px;
 
 }
 
@@ -80,18 +80,23 @@ nav a {
 
 }
 
-footer {	
-   	display: block;
-   	background-color: #153641;
-   	color: white;
-   	text-align: center;
-		
+
+.container-about {
+	position: relative;
 }
 
-.container-texto {	
-	
-	margin: 0 auto;
-	display: block;
+.text-about {
+	font-size: 20pt;
+	font-family: 'Open Sans', sans-serif;
+	text-align: justify;
+}
+
+.stack-about {
+	z-index: 1;
+}
+
+.color-text{
+	color: black;
 }
 
 .flex-sobre {	
@@ -103,14 +108,8 @@ footer {
 
 .sobre-img {	
 	display: block;
-	width: 45%;
+	width: 200%;
 	border-radius: 50%;
-}
-
-.sobre-texto {	
-	color: #153641;
-	width: 100%;
-	
 }
 
 .sobre-p {		
@@ -121,7 +120,7 @@ footer {
 	padding: 0;
 }
 	
-h1, h4, spam, p{	
+h1, h4, p{	
 	text-align: center;
 	
 }
@@ -129,7 +128,14 @@ h1, h4, spam, p{
 .foto{
 	border-radius: 50%;
 }
-	
+
+.develop-name {
+	background-color: #153641;
+	text-align: center;
+	padding: 1em 0;
+	color: #fff;
+}
+
 .work{
 	background-color: #153641;
 	color: white;
@@ -147,7 +153,7 @@ h1, h4, spam, p{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 27px;
+    font-size: 2em;
 }
 
 /* Change the color of links on hover */

@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
- 
-    <title>Jornada Acadêmica - UNIEURO</title>
+	<!-- Tags Obrigatórias -->
     <meta charset="UTF-8">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+   <!-- Tag Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
- 
+    <title>Jornada Acadêmica - UNIEURO</title>
 </head>
  
 <!-- Cabeçalho -->
@@ -23,45 +23,41 @@
 			<a href="informacao.html"><b>INFORMAÇÕES</b></a>
 			<a href="inscricao.html"><b>INSCRIÇÕES</b></a>
 			<a href="duvida.html"><b>DÚVIDAS</b></a>
-			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
-				<i class="fa fa-bars"></i>
-			</a>
-			<script>
-				function myFunction() {
-					var x = document.getElementById("myTopnav");
-					if (x.className === "topnav") {
-						x.className += " responsive";
-					} else {
-						x.className = "topnav";
-					}
-				}					
-			</script>					
 		</nav>
 	</div>
 </header>
-</br>
+
 <body> 
     <!-- Conteúdo -->
 	
     <section class="sobre" id="sobre">
-        <h1 class="sobre-texto" align="center">SOBRE</h1>
-        <div class="container-texto">
-            <div class="flex-sobre">
-                <p class="sobre-p">Com o objetivo de aproximar a visão dos alunos de T.I. à realidade concreta do mercado de trabalho, a 7Sight, fábrica de software de sistemas de informação, organiza junto a diretoria do curso, a Semana Acadêmica, com workshops e palestras sobre os temas: DEV, DESIGN, STARTUP e PROJETOS.</p>
-				<img src="img/Se.jpg" alt="" class="sobre-img">
-			</div>
-        </div>
+        <h1>SOBRE</h1>
+        <div class="container container-about">
+        <div class="row">
+            <div class="col-md-6 col-sm-12 stack-about">
+                <div class="text-about">
+                    <span>Com o objetivo de aproximar a visão dos alunos de T.I. à realidade concreta do mercado de trabalho, a 7Sight, fábrica de software de sistemas de informação, organiza junto a diretoria do curso, a Semana Acadêmica, com workshops e palestras sobre os temas: DEV, DESIGN, STARTUP e PROJETOS.</span>
+                </div>
+            </div>
+	    	<div class="col-md-4 offset-md-1 stack-about">
+                <img src="img/Se.jpg" alt="" class="sobre-img">
+            </div>
     </section>
  
     
-    
+    <!-- Rodapé -->
+ 	<div class="develop-name">
+    	<span>Desenvolvido por 7Sight</span>
+	</div> 
 
     	
     	
- 	
+	<!-- JavaScript (Opcional) -->
+	<!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->	
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>	
 </body>
-<!-- Rodapé -->
- <footer>Desenvolvido por 7Sight - 2018</footer>
 </html>
 
 
