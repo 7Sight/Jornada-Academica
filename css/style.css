@@ -127,7 +127,7 @@ nav a {
 	padding: 0;
 }
 	
-h1, h4, p{	
+h1, h4, p, h3, h5{	
 	text-align: center;
 	
 }
@@ -244,3 +244,6 @@ h1, h4, p{
 		text-align: justify;
 	}
   }
+.col-sm-3:hover{
+	 cursor: pointer;
+	}
