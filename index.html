@@ -1,62 +1,85 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-	<!-- Tags Obrigatórias -->
+    <!-- Tags Obrigatórias -->
     <meta charset="UTF-8">
- 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-
-   <!-- Tag Bootstrap -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+   
+    <!-- Tag Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script language=javascript type="text/javascript"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Jornada Acadêmica - UNIEURO</title>
+    <link rel="icon" href="img/logo.png" type="image/x-icon" />
+
 </head>
  
 <!-- Cabeçalho -->
 <header>
     <div class="topnav" id="myTopnav">            
-		<img src="img/logo.png" alt="logo" class="logo">
-		<nav>
-			<a href="index.html" class="active"><b>SOBRE</b></a>
-			<a href="informacao.html"><b>INFORMAÇÕES</b></a>
-			<a href="inscricao.html"><b>INSCRIÇÕES</b></a>
-			<a href="duvida.html"><b>DÚVIDAS</b></a>
-		</nav>
-	</div>
+        <img src="img/logo.png" alt="logo" class="logo">
+        <nav>
+            <!-- Não tirar tag abaixo, gambiarra para o menu funcionar -->
+            <a><b></b></a>
+            <a href="index.html" class="active"><b>SOBRE</b></a>
+            <a href="informacao.html"><b>INFORMAÇÕES</b></a>
+            <a href="inscricao.html"><b>INSCRIÇÕES</b></a>
+            <a href="duvida.html"><b>DÚVIDAS</b></a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+            <script>
+                function myFunction() {
+                    var x = document.getElementById("myTopnav");
+                    if (x.className === "topnav") {
+                        x.className += " responsive";
+                    } else {
+                        x.className = "topnav";
+                    }
+                }                   
+            </script>                   
+        </nav>
+    </div>
+    
 </header>
 
 <body> 
     <!-- Conteúdo -->
-	
-    <section class="sobre" id="sobre">
+    
+    <div class="sobre" id="sobre">
         <h1>SOBRE</h1>
+        <br></br>
         <div class="container container-about">
         <div class="row">
             <div class="col-md-6 col-sm-12 stack-about">
                 <div class="text-about">
-                    <span>Com o objetivo de aproximar a visão dos alunos de T.I. à realidade concreta do mercado de trabalho, a 7Sight, fábrica de software de sistemas de informação, organiza junto a diretoria do curso, a Semana Acadêmica, com workshops e palestras sobre os temas: DEV, DESIGN, STARTUP e PROJETOS.</span>
+                    <span>Com o objetivo de aproximar a visão dos alunos de Sistemas de informação à realidade concreta do mercado de trabalho, a 7Sight, fábrica de software de sistemas de informação, organiza junto a diretoria do curso, a Semana Acadêmica, com workshops e palestras sobre os temas como: Dev, Design, Startup, Projetos e Segurança.</span>
                 </div>
             </div>
-	    	<div class="col-md-4 offset-md-1 stack-about">
+            <div class="col-md-4 offset-md-1 stack-about">
                 <img src="img/Se.jpg" alt="" class="sobre-img">
             </div>
-    </section>
+
+            <!-- Rodapé -->
+            <div class="develop-name">
+        <span>Desenvolvido por 7Sight - 2018</span>
+    </div>
+    </div>
  
     
-    <!-- Rodapé -->
- 	<div class="develop-name">
-    	<span>Desenvolvido por 7Sight</span>
-	</div> 
+    
 
-    	
-    	
-	<!-- JavaScript (Opcional) -->
-	<!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->	
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>	
+        
+        
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS --> 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>  
 </body>
 </html>
 
