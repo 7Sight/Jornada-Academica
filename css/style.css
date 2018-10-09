@@ -10,6 +10,7 @@ body{
 	margin:0;
 	padding:0;
 	height:100%;
+	
 }
 
 footer {
@@ -25,6 +26,12 @@ footer {
 	margin: 0 auto;
 	padding: 2.5em;
 	min-height: 630px;
+	background-image: url("../img/fundo1.jpg"   );
+	height: 100%;    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
 }
 
 .sobre-text {	
@@ -120,7 +127,7 @@ nav a {
 }
 
 .sobre-p {		
-	color: #153641;
+	color: white;
 	margin-right: 100px;
     line-height: 25px;
 	text-align: justify;
@@ -158,6 +165,11 @@ h1, h4, p, h3, h5{
 .work{
 	background-color: #153641;
 	color: white;
+	background-image: url("../img/fundo1.jpg"   );
+	height: 100%;    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .topnav {
     background-color: #153641;
@@ -166,6 +178,7 @@ h1, h4, p, h3, h5{
 
 .duvida {
 	min-height: 630px;
+	
 }
 
 /* Style the links inside the navigation bar */
@@ -207,8 +220,7 @@ h1, h4, p, h3, h5{
 
 @media screen and (max-width: 700px) {
 	.sobre{
-		margin: 0 auto;
-		padding: 2.5em;
+		
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -245,5 +257,34 @@ h1, h4, p, h3, h5{
 	}
   }
 .col-sm-3:hover{
-	 cursor: pointer;
+		cursor: pointer;
+		color: black;
 	}
+
+.contai{
+	margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.box-container-flex{
+	display: flex;
+    justify-content: space-between;
+	align-items: stretch;
+    margin-bottom: 1em;
+}
+
+.box-container-flex .box{
+	width: 30%;
+    border: 2px solid #ddd;
+    padding: 1em;
+	
+}
+
+.box:hover{
+	cursor: pointer;
+	background-color: #153641;
+	color: white;
+}
+
