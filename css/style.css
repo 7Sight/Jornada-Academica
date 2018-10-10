@@ -177,24 +177,29 @@ h1, h4, p, h3, h5{
 	width:100%;
     background-color: #153641;
     overflow: hidden;
-	
+    z-index: 1;
 }
 
 .inscricao{
 	padding-top: 100px;
+	position: absolute;
+	z-index: 0;
 }
 .duvida {
 	min-height: 630px;
 	padding-top: 100px;
+	z-index: 0;
 	
 }
 .informacao{
 	padding-top: 100px;
+	position: absolute;
+	z-index: 0;
 }
 
 .margem{
 	padding-top: 100px;
-
+	z-index: 0;
 }
 
 /* Style the links inside the navigation bar */
