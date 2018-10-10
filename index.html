@@ -1,57 +1,135 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
- 
-    <title>Jornada Acadêmica - UNIEURO</title>
+    <!-- Tags Obrigatórias -->
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+   
+    <!-- Tag Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script language=javascript type="text/javascript"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Jornada Acadêmica - UNIEURO</title>
+    <link rel="icon" href="img/logo.png" type="image/x-icon" />
 
- 
 </head>
  
-<body>
- 
-    <!-- Cabeçalho -->
-    <header>
-        <div class="container">
-            
-            <img src="img/logo.png" alt="logo" class="logo">
+<!-- Cabeçalho -->
+<header>
+    <div class="topnav" id="myTopnav">            
+        <img src="img/logo.png" alt="logo" class="logo">
+        <nav>
+            <!-- Não tirar tag abaixo, gambiarra para o menu funcionar -->
+            <a><b></b></a>
+            <a href="index.html" class="active"><b>SOBRE</b></a>
+            <a href="informacao.html"><b>INFORMAÇÕES</b></a>
+            <a href="inscricao.html"><b>INSCRIÇÕES</b></a>
+            <a href="duvida.html"><b>DÚVIDAS</b></a>
 
-            <nav>
-                
-        	<ul>
-				<li><a href="#"><b>SOBRE</b></a></li>
-				<li><a href="#"><b>INFORMAÇÕES</b></a></li>
-			 	<li><a href="#"><b>INSCRIÇÕES</b></a></li>
-				<li><a href="#"><b>DÚVIDAS</b></a></li>
-			</ul>
-        	
-            </nav>
-        </div>
- 
-    </header>
- 
-    <!-- Conteúdo -->
-    <section class="sobre" id="sobre">
-        <h1 class="sobre-texto" align="center">SOBRE</h1>
-        <div class="container-texto">
-            <div class="flex-sobre">
-                <img src="img/SOBRE.jpg" alt="" class="sobre-img">
-                
-                    <p class="sobre-p">Com o objetivo de aproximar a visão dos alunos de T.I. à realidade concreta do mercado de trabalho, a 7Sight Jr, fábrica de software de sistemas de informação, organiza junto a diretoria do curso , a Semana Acadêmica, com workshops e palestras sobre os temas: DEV, DESIGN, STARTUP e PROJETOS.</p>
+                <!-- Formulário -->       
+            <a href="#wsisinf" data-toggle="modal" data-target="#wsisinf"><b>WSISINF</b></a>
+            
+                <!-- Modal -->
+                    <div class="modal fade" id="wsisinf" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content color-text">
+                               <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalCenterTitle">I WSISINF</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                <p>I Workshop de Sistemas de Informação (I WSISINF 2018)</p>    
+                                <p>O I WSISINF ocorrerá nos dias 16 de outubro à 18 de outubro no campus Águas Claras do Unieuro. Estudantes de graduação estão convidados a submeter resumos de seus trabalhos de pesquisa, ensino ou extensão nas áreas de Sisteamas de Informação, Ciência da Computação ou áreas correlatas que serão apresentados por meio de pôsteres.</p>   
+                                <p>Submissão dos resumos:
+                                •   Os autores devem submeter os seus resumos exclusivamente por meio do formulário disponibilizado no link: (<b>link</b>)
+                                •   Os manuscritos deverão conter 3.000 caracteres (incluindo espaços) no máximo.
+                                •   Os manuscritos não devem conter gráficos, figuras, tabelas, equações ou referências bibliográficas. Se necessário essas informações devem constar no poster.
+                                •   O autor ao enviar o resumo é legalmente responsável por todo o seu conteúdo. A comissão se isenta de qualquer responsabilidade sobre o conteúdo que for divulgado e/ou publicado por qualquer meio pelos autores  ou por terceiros. Todos os autores devem ter conhecimento das normas, do conteúdo do resumo e concordar em ter seu nome inserido como autor do trabalho.
+                                •   Template para desenvolvimento do poster: (colocar o link que leva ao download no drive da 7sight).
+                                Normas do Poster:
+                                •   Os textos devem ser legíveis.
+                                •   Incluir logotipos da Unieuro;
+                                •   O poster deve conter: curso de graduação, título, nomes dos autores e do professor(a) orientador(a) (se for o caso), introdução, objetivos, metodologia, resultados e referências bibliográficas.
+                                •   Os textos devem ser minimizados, dando-se preferência a figuras, fotos, esquemas e gráficos.
+                                •   O poster deve possuir um cordão para permitir sua fixação a painéis de madeira ou a ganchos nas paredes.
+                                Orientações  para elaboração:
+                                •   Introdução: A introdução deve apresentar o que será abordado no trabalho de forma resumida e objetiva.
+                                •   Objetivos: “O Objetivo Geral é o fim que se pretende chegar. Os Objetivos Específicos são instrumentais para o Objetivo Geral e dão uma visão embasadora do próprio Tema” (FURASTE, 2006, p. 210). Os objetivos devem sempre começar com um verbo no infinitivo, exemplos: analisar, mostrar, identificar, apontar, descrever.
+                                •   Metodologia: Este elemento responde à pergunta de como fazer, qual caminho seguir para efetivar a pesquisa. Consideramos a classificação quanto aos objetivos e procedimentos técnicos e quanto ao tratamento dos dados conforme Rampazzo e Corrêa (2008, p. 67-71); (FACHIN, 2001, p. 41 ); Gil (2002).
+                                •   Resultados: É o espaço onde se analisam e explicam os dados da pesquisa através de gráficos, tabelas e argumentação que aponte para alguma solução ou constatação do tema em questão.
+                                •   Conclusão: A conclusão deve conter um resume breve, forte e coerente de tudo que foi abordado no texto.
+                                •   Referências Bibliográficas: Constar os materiais utilizados como fonte de leitura para realização do trabalho.
+                                Informações Adicionais: 
+                                •   Cada autor receberá um certificado de apresentação do trabalho.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Modal -->
+            
+
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+
+                <i class="fa fa-bars"></i>
+            </a>
+            <script>
+                function myFunction() {
+                    var x = document.getElementById("myTopnav");
+                    if (x.className === "topnav") {
+                        x.className += " responsive";
+                    } else {
+                        x.className = "topnav";
+                    }
+                }                   
+            </script>                   
+        </nav>
+    </div>
+    
+</header>
+
+<body> 
+    <section>
+        <!-- Conteúdo -->
+        <div class="sobre" id="sobre">
+            <div class="margem">
+            <h1>A Jornada Acadêmica</h1>
+            </div>
+            <br></br>
+            <div class="bor">
+                <div class="container">
+                    <div class="text-about">
+                        <span>Com o objetivo de aproximar a visão dos alunos de Sistemas de informação à realidade concreta do mercado de trabalho, a 7Sight, fábrica de software de sistemas de informação, organiza junto a diretoria do curso, a Semana Acadêmica, com workshops e palestras sobre os temas como: Dev, Design, Startup, Projetos e Segurança.</span>      
+                    </div>                             
+                </div>
             </div>
         </div>
     </section>
- 
-    <!-- Rodapé -->
-    <div>
+    <section>
+        <iframe src="https://calendar.google.com/calendar/b/1/embed?showPrint=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=alha9omur02ng58dhneq5kubgs%40group.calendar.google.com&amp;color=%23865A5A&amp;ctz=America%2FSao_Paulo" style="border:solid 1px #777" width="1348" height="600" frameborder="0" scrolling="no" allowfullscreen></iframe>
+        <div align="center">
 
-    	<footer>Desenvolvido por 7Sight Jr - 2018</footer>
-    	
- 	</div>
+            <br><br><br>
+            <a class="btn btn-outline-botao btn-lg" href="inscricao.html" role="button">Inscrição</a>     
+        </div>  
+    </section>   
+	<br><br><br>
+
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS --> 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>  
 </body>
- 
+ <!-- Rodapé -->
+    <div class="develop-name-2">
+        <span>Desenvolvido por 7Sight - 2018</span>
+    </div>
+
 </html>
-
-
