@@ -367,3 +367,8 @@ h1, h4, p, h3, h5{
 	background-color: #f8f9fab3;
 }
 
+.calendar{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
