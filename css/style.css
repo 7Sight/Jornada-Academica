@@ -5,7 +5,7 @@
 }
 
 body{
-	font-family: 'Courier New', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	text-align: justify;
 	margin:0;
 	padding:0;
@@ -22,6 +22,13 @@ footer {
 		width: 100%;
 }
 
+.text-certo{
+	font-family:'Yanone Kaffeesatz', sans-serif;
+	font-size: 30px;
+	line-height: 20px;
+	font-weight: 400;
+}
+
 .sobre{
 	margin: 0 auto;
 	padding: 2.5em;
@@ -31,6 +38,9 @@ footer {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+	justify-content: center; 
+	align-items: center;
 	
 }
 
@@ -54,6 +64,9 @@ footer {
 	
 }
 
+.text{
+	font-family: 'Roboto', sans-serif;
+}
 
 header::after {	
 	content: '';
@@ -101,8 +114,8 @@ nav a {
 
 .text-about {
 	font-size: 20pt;
-	font-family: 'Open Sans', sans-serif;
-	text-align: justify;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
 
 }
 
@@ -137,7 +150,7 @@ nav a {
 	
 h1, h4, p, h3, h5{	
 	text-align: center;
-	
+	font-family: 'Anton', sans-serif;
 }
 
 .foto{
@@ -178,6 +191,7 @@ h1, h4, p, h3, h5{
     background-color: #153641;
     overflow: hidden;
     z-index: 1;
+
 }
 
 .inscricao{
@@ -271,9 +285,9 @@ h1, h4, p, h3, h5{
 
 @media screen and (max-width: 480px) {
 	.text-about {
-		font-size: 15pt;
+		font-size: 20pt;
 		font-family: 'Open Sans', sans-serif;
-		text-align: justify;
+		
 	}
   }
 .col-sm-3:hover{
@@ -292,14 +306,15 @@ h1, h4, p, h3, h5{
 	display: flex;
     justify-content: space-between;
     margin-bottom: 1em;
+
 }
 
 .box-container-flex .box{
 	width: 24%;
-    border: 2px solid gray;
     padding: 1em;
-	box-shadow:20px 20px 50px grey;
-	
+	border-radius: 10px;
+	opacity: 1.6;
+	background-color: #f8f9fab3;
 }
 
 .box:hover{
@@ -344,9 +359,11 @@ h1, h4, p, h3, h5{
 }
 
 .bor{
-	border: 2px solid white;
-	box-shadow:20px 20px 50px gray;
+	
+	border-radius: 10px;
 	margin: 0;
 	padding-top: 60px;
 	padding-bottom: 60px;
+	opacity: 1.6;
+	background-color: #f8f9fab3;
 }
