@@ -150,6 +150,7 @@ nav a {
 h1, h4, p, h3, h5{	
 	text-align: center;
 	font-family: 'Anton', sans-serif;
+	
 }
 
 .foto{
@@ -367,8 +368,16 @@ h1, h4, p, h3, h5{
 	background-color: #f8f9fab3;
 }
 
-.calendar{
+.even{
+	height: 500px;
+	width: 60%;
+	margin: 0 auto;
+	padding: 20px;
 	display: flex;
-	flex-direction: column;
 	justify-content: center;
+	align-items: center;
+	resize: both;
+	overflow: auto;
+}
+	
 }
