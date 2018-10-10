@@ -103,6 +103,7 @@ nav a {
 	font-size: 20pt;
 	font-family: 'Open Sans', sans-serif;
 	text-align: justify;
+
 }
 
 .stack-about {
@@ -164,7 +165,7 @@ h1, h4, p, h3, h5{
 
 .work{
 	background-color: #153641;
-	color: white;
+	color: black;
 	background-image: url("../img/fundo1.jpg"   );
 	height: 100%;    
     background-position: center;
@@ -174,6 +175,7 @@ h1, h4, p, h3, h5{
 .topnav {
     background-color: #153641;
     overflow: hidden;
+	
 }
 
 .duvida {
@@ -190,6 +192,7 @@ h1, h4, p, h3, h5{
     padding: 14px 16px;
     text-decoration: none;
     font-size: 2em;
+	
 }
 
 /* Change the color of links on hover */
@@ -271,14 +274,14 @@ h1, h4, p, h3, h5{
 .box-container-flex{
 	display: flex;
     justify-content: space-between;
-	align-items: stretch;
     margin-bottom: 1em;
 }
 
 .box-container-flex .box{
-	width: 30%;
-    border: 2px solid #ddd;
+	width: 24%;
+    border: 2px solid gray;
     padding: 1em;
+	box-shadow:20px 20px 50px grey;
 	
 }
 
