@@ -80,11 +80,10 @@ nav ul {
 
 }
 
-nav li {	
-	display: inline-block;
-	margin-left: 15px;
-	padding-top: 25px;
-
+li {	
+	text-align: justify;
+	padding-right:30px;
+	
 }
 
 nav a {	
@@ -350,3 +349,4 @@ h1, h4, p, h3, h5{
 	padding-top: 60px;
 	padding-bottom: 60px;
 }
+
