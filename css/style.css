@@ -182,18 +182,15 @@ h1, h4, p, h3, h5{
 
 .inscricao{
 	padding-top: 100px;
-	position: absolute;
 	z-index: 0;
 }
 .duvida {
-	min-height: 630px;
 	padding-top: 100px;
 	z-index: 0;
 	
 }
 .informacao{
 	padding-top: 100px;
-	position: absolute;
 	z-index: 0;
 }
 
