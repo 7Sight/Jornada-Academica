@@ -291,3 +291,37 @@ h1, h4, p, h3, h5{
 	color: white;
 }
 
+.btn-outline-botao {
+  color: #fff;
+  background-color: #153641;
+  background-image: none;
+  border-color: #6c757d;
+  border: 1px solid gray;
+}
+
+.btn-outline-botao:hover {
+  color: #000;
+  background-color: #fff;
+  border-color: #6c757d;
+}
+
+.btn-outline-botao:focus, .btn-outline-botao.focus {
+  box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.5);
+}
+
+.btn-outline-botao.disabled, .btn-outline-botao:disabled {
+  color: #6c757d;
+  background-color: #153641;
+}
+
+.btn-outline-botao:not(:disabled):not(.disabled):active, .btn-outline-botao:not(:disabled):not(.disabled).active,
+.show > .btn-outline-botao.dropdown-toggle {
+  color: #fff;
+  background-color: #153641;
+  border-color: #6c757d;
+}
+
+.btn-outline-botao:not(:disabled):not(.disabled):active:focus, .btn-outline-botao:not(:disabled):not(.disabled).active:focus,
+.show > .btn-outline-botao.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.5);
+}
