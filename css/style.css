@@ -302,11 +302,11 @@ h1, h4, p, h3, h5{
     padding-right: 15px;
 }
 
-.box-container-flex{
+.card{
 	display: flex;
     justify-content: space-between;
     margin-bottom: 1em;
-
+	border-radius: 10px;
 }
 
 .box-container-flex .box{
@@ -317,10 +317,11 @@ h1, h4, p, h3, h5{
 	background-color: #f8f9fab3;
 }
 
-.box:hover{
+.card-body:hover{
 	cursor: pointer;
 	background-color: #153641;
 	color: white;
+	border-radius: 10px;
 }
 
 .btn-outline-botao {
@@ -379,5 +380,7 @@ h1, h4, p, h3, h5{
 	resize: both;
 	overflow: auto;
 }
+	
+.card{
 	
 }
