@@ -5,7 +5,7 @@
 }
 
 body{
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
 	text-align: justify;
 	margin:0;
 	padding:0;
@@ -20,6 +20,10 @@ footer {
 		color: #fff;
 		bottom: 0;
 		width: 100%;
+}
+
+header {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 .text-certo{
@@ -65,7 +69,8 @@ footer {
 }
 
 .text{
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	color: black;
 }
 
 header::after {	
@@ -113,7 +118,7 @@ nav a {
 
 .text-about {
 	font-size: 20pt;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
 	text-align: center;
 
 }
@@ -149,7 +154,7 @@ nav a {
 	
 h1, h4, p, h3, h5{	
 	text-align: center;
-	font-family: 'Anton', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	
 }
 
@@ -286,7 +291,7 @@ h1, h4, p, h3, h5{
 @media screen and (max-width: 480px) {
 	.text-about {
 		font-size: 20pt;
-		font-family: 'Open Sans', sans-serif;
+		font-family: 'Yanone Kaffeesatz', sans-serif;
 		
 	}
   }
@@ -317,12 +322,17 @@ h1, h4, p, h3, h5{
 	background-color: #f8f9fab3;
 }
 
-.card-body:hover{
+.card-body:hover {
 	cursor: pointer;
 	background-color: #153641;
 	color: white;
 	border-radius: 10px;
 }
+.modal-content {
+	color: black;
+
+}
+
 
 .btn-outline-botao {
   color: #fff;
