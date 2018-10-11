@@ -34,6 +34,9 @@ header {
 }
 
 .sobre{
+	display: flex; 
+	justify-content: center; 
+	align-items: center;
 	margin: 0 auto;
 	padding: 2.5em;
 	min-height: 630px;
@@ -43,9 +46,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
    
-	justify-content: center; 
-	align-items: center;
-	
+
 }
 
 .sobre-text {	
@@ -157,10 +158,16 @@ h1{
 	font-family: 'Anton', sans-serif;
 }
 
-h4, p, h3, h5{	
+h4, h3, h5{	
 	text-align: center;
 	font-family: 'Yanone Kaffeesatz', sans-serif;	
 	
+}
+
+p{
+	text-align: center;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 16pt;
 }
 
 .foto{
@@ -219,7 +226,7 @@ h4, p, h3, h5{
 }
 
 .margem{
-	padding-top: 100px;
+	margin-top: -20px;
 	z-index: 0;
 }
 
@@ -304,6 +311,9 @@ h4, p, h3, h5{
 		cursor: pointer;
 		color: black;
 	}
+.icon:hover{
+	color: white;
+}
 
 .contai{
 	margin-right: auto;
@@ -317,6 +327,7 @@ h4, p, h3, h5{
     justify-content: space-between;
     margin-bottom: 1em;
 	border-radius: 10px;
+	border: none;
 }
 
 .box-container-flex .box{
@@ -332,12 +343,12 @@ h4, p, h3, h5{
 	background-color: #153641;
 	color: white;
 	border-radius: 10px;
+
 }
 .modal-content {
 	color: black;
 
 }
-
 
 .btn-outline-botao {
   color: #fff;
@@ -396,6 +407,6 @@ h4, p, h3, h5{
 	overflow: auto;
 }
 	
-.card{
-	
-}
+
+
+
